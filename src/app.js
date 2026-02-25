@@ -8,7 +8,7 @@ app.use(express.json())
 
 
 // app.use('/angel', angeloneRoutes)
-app.use('/' ,fivePaisaRoutes )
+app.use('/' , fivePaisaRoutes )
 
 
 

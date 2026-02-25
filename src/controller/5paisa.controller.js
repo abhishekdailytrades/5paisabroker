@@ -8,6 +8,8 @@ let fivePaisaController = {
 
         const state = "12345";
         const loginUrl = `${process.env.FIVEPAISA_BASE_URL}/WebVendorLogin/VLogin/Index?VendorKey=${process.env.FIVEPAISA_API_KEY}&ResponseURL=${process.env.CALLBACK_URL}&State=${state}`;
+
+        console.log(loginUrl , 'loginUrlloginUrlloginUrlloginUrl' )
         return res.redirect(loginUrl);
     },
 
