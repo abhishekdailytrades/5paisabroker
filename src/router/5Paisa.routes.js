@@ -3,7 +3,7 @@ const router = express.Router();
 const fivePaisaController = require("../controller/5paisa.controller");
 
 router.get("/", fivePaisaController.login);
-router.get("/auth/callback", fivePaisaController.callback);
+router.get("/callback", fivePaisaController.callback);
 router.post("/place-order", fivePaisaController.placeOrder);
 
 module.exports = router;
